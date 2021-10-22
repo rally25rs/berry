@@ -35,6 +35,7 @@ Yarn now accepts sponsorships! Please give a look at our [OpenCollective](https:
 - The nm linker maximizes chances to end-up with only one top-level node_modules in the case of using workspaces
 - The `nmSelfReferences` setting has been added to the nm linker to control whether workspaces are allowed to require themselves - results in creation of self-referencing symlinks. `yarn workspaces focus` will not create self-referencing symlinks for excluded workspaces anymore.
 - Yarn can now install workspaces from remote git repositories that use npm if npm@>=7.x is installed on the system.
+- Yarn can now install git repositories that use pnpm (workspaces are supported too).
 
 ## 3.0.2
 
