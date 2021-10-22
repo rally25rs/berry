@@ -206,7 +206,7 @@ jobs:
 
     - name: 'Enable corepack'
       run: |
-        npm i -g corepack
+        npm i -gf corepack
         corepack enable
       shell: bash
 
